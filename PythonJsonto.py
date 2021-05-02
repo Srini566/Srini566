@@ -2,4 +2,4 @@ import json
 
 person = '{"name": "Bob", "languages": ["English", "Fench"]}'
 
-print(person)
+person_dict = json.loads(person)
